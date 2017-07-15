@@ -71,6 +71,23 @@
   margin-top: 0;
 }
 
+/* Make post list more compact */
+.PostStream-timeGap {
+  padding-top: 20px;
+  padding-bottom: 0;
+}
+.Post-header {
+  margin-bottom: 10px;
+}
+.Post-body {
+  line-height: 1.6;
+}
+.Post-actions button.Button {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+/**/
+
 @media @phone {
   .Dropdown .Dropdown-menu {
     position: absolute;
@@ -88,4 +105,15 @@
   .Composer:not(.minimized) {
     height: 400px !important;
   }
+
+  /* Make post list more compact */
+  .Post {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .PostStream-timeGap {
+    padding-top: 10px;
+    padding-bottom: 0;
+  }
+  /**/
 }
