@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.0.0](https://github.com/flarum/embed/compare/v0.1.0-beta.16...v1.0.0)
+
+### Changed
+- Compatibility with Flarum v1.0.0.
+
+## [0.1.0-beta.16](https://github.com/flarum/embed/compare/v0.1.0-beta.15...v0.1.0-beta.16)
+
+### Changed
+- Replaced `app()` helper with `resolve()`.
+
+## [0.1.0-beta.15](https://github.com/flarum/embed/compare/v0.1.0-beta.14...v0.1.0-beta.15)
+
+### Changed
+- Updated composer.json and admin javascript for new admin area.
+
 ## [0.1.0-beta.14](https://github.com/flarum/embed/compare/v0.1.0-beta.13...v0.1.0-beta.14)
 
 ### Changed
